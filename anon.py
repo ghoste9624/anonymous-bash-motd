@@ -1,5 +1,5 @@
 clear 
-echo -e "\e[3m\e[1;92m\WE ARE ANONYMOUS...
+echo "\e[3m\e[1;92m\WE ARE ANONYMOUS...
 "
 pkg update && pkg upgrade -y && apt update && apt full-upgrade -y 
 
