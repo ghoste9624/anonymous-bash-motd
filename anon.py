@@ -3,7 +3,7 @@ clear && echo -e "
 "
 pkg --check-mirror update
 
-pkg update && pkg upgrade -y && apt update && apt full-upgrade -y && pkg install git python zsh -y 
+pkg update && pkg upgrade -y && apt update && apt full-upgrade -y 
 
 rm -rf /data/data/com.termux/files/usr/etc/motd
 git clone https://github.com/ghoste9624/anonymous-motd /data/data/com.termux/files/usr/etc/motd
