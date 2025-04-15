@@ -1,9 +1,6 @@
 clear 
-
-echo -e "\e[3m\e[1;92mWE ARE ANONYMOUS, EXPECT US...
+echo -e "\e[3m\e[1;92m\WE ARE ANONYMOUS...
 "
-pkg --check-mirror update
-
 pkg update && pkg upgrade -y && apt update && apt full-upgrade -y 
 
 rm -rf /data/data/com.termux/files/usr/etc/motd
