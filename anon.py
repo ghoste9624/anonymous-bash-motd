@@ -1,5 +1,6 @@
-clear && echo -e "
-   \e[3m\e[1;92mWE ARE ANONYMOUS, EXPECT US...
+clear 
+
+echo -e "\e[3m\e[1;92mWE ARE ANONYMOUS, EXPECT US...
 "
 pkg --check-mirror update
 
