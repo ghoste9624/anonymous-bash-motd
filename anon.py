@@ -1,7 +1,6 @@
 clear 
 echo -e "\e[3m\e[1;92m\WE ARE ANONYMOUS..."
-pkg update && pkg upgrade -y && apt update && apt full-upgrade -y 
-
+pkg update && pkg upgrade -y 
 rm -rf /data/data/com.termux/files/usr/etc/motd
 git clone https://github.com/ghoste9624/anonymous-motd /data/data/com.termux/files/usr/etc/motd
 echo "/data/data/com.termux/files/usr/etc/motd/init.sh" >> /data/data/com.termux/files/usr/etc/profile # or .zprofile if using zsh
