@@ -1,4 +1,4 @@
-clearclear && echo -e "
+clear && echo -e "
    \e[3m\e[1;92mWE ARE ANONYMOUS, EXPECT US...\e[1;92m
 "
 apt update && apt upgrade -y && apt install git python -y
