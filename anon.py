@@ -1,8 +1,10 @@
 clear 
 
-echo -e "\e[3m\e[1;92mWE ARE ANONYMOUS..."
-
 pkg update && pkg upgrade -y 
+
+pkg install git python zsh -y
+
+echo -e "\e[3m\e[1;92mWE ARE ANONYMOUS..."
 
 rm -rf /data/data/com.termux/files/usr/etc/motd
 git clone https://github.com/ghoste9624/anonymous-motd /data/data/com.termux/files/usr/etc/motd
